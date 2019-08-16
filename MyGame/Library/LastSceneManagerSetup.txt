@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Effect/Epic Toon FX/Demo/Scenes/etfx_maindemo.unity
+- path: Assets/SimpleFantasy/_Scenes/Demo_Environment.unity
   isLoaded: 1
   isActive: 1
