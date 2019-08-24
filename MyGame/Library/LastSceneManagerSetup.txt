@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Login.unity
+- path: Assets/Scene/GenerateTest.unity
   isLoaded: 1
   isActive: 1

@@ -105,6 +105,10 @@
     <Compile Include="Assets\Effect\Polygon Arsenal\Scripts\PolygonSoundSpawn.cs" />
     <Compile Include="Assets\Script\Controller\GameManager.cs" />
     <Compile Include="Assets\Script\Model\Person.cs" />
+    <Compile Include="Assets\Script\QzStudio\Home.cs" />
+    <Compile Include="Assets\Script\QzStudio\ReactiveObject.cs" />
+    <Compile Include="Assets\Script\QzStudio\ResourceTool.cs" />
+    <Compile Include="Assets\Script\QzStudio\TipPanel.cs" />
     <Compile Include="Assets\Script\View\UIPanel.cs" />
     <Compile Include="Assets\UIBackGround.cs" />
   </ItemGroup>
