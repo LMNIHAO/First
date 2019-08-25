@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Home : ReactiveObject
 {
-
+    //侧边提示UI
     public TipPanel tipPanel;
-
+    //记录生成角色的数量
     private int characterCount=0;
-
+    //角色槽位
     private List<GameObject> slots;
-
+    //默认一排生成6个槽位
     public int count = 6;
-
+    //生成位置与物体的距离
     public float distance = 10f;
 
     public override void Show(string showContexts)
@@ -22,7 +22,7 @@ public class Home : ReactiveObject
 
     // Use this for initialization
     void Start () {
-
+        //初始化槽位
         slots = new List<GameObject>();
 
         for (int i = 0; i < count; ++i)
@@ -31,7 +31,7 @@ public class Home : ReactiveObject
             slots.Add(null);
 
         }
-
+        //开始的时候 关闭特效
         if (effectShow.isPlaying)
         {
             effectShow.Stop();
@@ -62,7 +62,7 @@ public class Home : ReactiveObject
     }
     private void OnMouseDown()
     {
-        Debug.Log("鼠标点击");
+        //Debug.Log("鼠标点击");
 
         tipPanel.Show();
 
@@ -73,9 +73,13 @@ public class Home : ReactiveObject
 
     }
 
+    /// <summary>
+    /// 点击UI 根据传入的ID 生成角色
+    /// </summary>
+    /// <param name="characterId">传入的角色ID</param>
     public void GenerateCharacter(int characterId=0)
     {
-        Debug.Log(characterId);
+        //Debug.Log(characterId);
 
         GameObject temp = null;
 
@@ -114,9 +118,9 @@ public class Home : ReactiveObject
 
         characterCount++;
 
-        Debug.Log("CharacterCount:" + characterCount);
+        //Debug.Log("CharacterCount:" + characterCount);
 
-        Debug.Log(" tempName" + temp.name);
+        //Debug.Log(" tempName" + temp.name);
 
         Instantiate(temp, GetPosition(characterCount), Quaternion.identity);
 
@@ -144,6 +148,11 @@ public class Home : ReactiveObject
         }
     }
 
+    /// <summary>
+    /// 获取出生的位置  (待完善=》TODO)
+    /// </summary>
+    /// <param name="count"> 索引</param>
+    /// <returns>位置</returns>
     private Vector3 GetPosition(int count)
     {
         if (count<=6)

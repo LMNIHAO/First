@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TipPanel : MonoBehaviour {
+public class TipPanel : UIPanel {
 
     private Animator homeController;
 
@@ -15,7 +15,7 @@ public class TipPanel : MonoBehaviour {
 
     private Button btn4;
 
-    private void Awake()
+    protected override void InitViews()
     {
         homeController = GetComponent<Animator>();
 
@@ -26,26 +26,36 @@ public class TipPanel : MonoBehaviour {
         btn3 = transform.Find("btn3/Image").GetComponent<Button>();
 
         btn4 = transform.Find("btn4/Image").GetComponent<Button>();
+    }
 
+    protected override void InitListener()
+    {
+        
+    }
+
+    // Use this for initialization
+    protected override void Start () {
+
+        InitViews();
+
+        InitListener();
 
     }
-    // Use this for initialization
-    void Start () {
-		
-	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
-
+    //显示UI
     public void Show()
     {
         homeController.SetBool("home", true);
     }
+    //关闭UI
 
     public void Hide()
     {
         homeController.SetBool("home", false);
     }
+
 }

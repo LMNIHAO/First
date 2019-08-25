@@ -1,0 +1,2190 @@
+fileFormatVersion: 2
+guid: bd8c6ccd3154cb84396979a18ef02ffe
+timeCreated: 1566707824
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: texture002_0
+    21300002: texture002_1
+    21300004: texture002_2
+    21300006: texture002_3
+    21300008: texture002_4
+    21300010: texture002_5
+    21300012: texture002_6
+    21300014: texture002_7
+    21300016: texture002_8
+    21300018: texture002_9
+    21300020: texture002_10
+    21300022: texture002_11
+    21300024: texture002_12
+    21300026: texture002_13
+    21300028: texture002_14
+    21300030: texture002_15
+    21300032: texture002_16
+    21300034: texture002_17
+    21300036: texture002_18
+    21300038: texture002_19
+    21300040: texture002_20
+    21300042: texture002_21
+    21300044: texture002_22
+    21300046: texture002_23
+    21300048: texture002_24
+    21300050: texture002_25
+    21300052: texture002_26
+    21300054: texture002_27
+    21300056: texture002_28
+    21300058: texture002_29
+    21300060: texture002_30
+    21300062: texture002_31
+    21300064: texture002_32
+    21300066: texture002_33
+    21300068: texture002_34
+    21300070: texture002_35
+    21300072: texture002_36
+    21300074: texture002_37
+    21300076: texture002_38
+    21300078: texture002_39
+    21300080: texture002_40
+    21300082: texture002_41
+    21300084: texture002_42
+    21300086: texture002_43
+    21300088: texture002_44
+    21300090: texture002_45
+    21300092: texture002_46
+    21300094: texture002_47
+    21300096: texture002_48
+    21300098: texture002_49
+    21300100: texture002_50
+    21300102: texture002_51
+    21300104: texture002_52
+    21300106: texture002_53
+    21300108: texture002_54
+    21300110: texture002_55
+    21300112: texture002_56
+    21300114: texture002_57
+    21300116: texture002_58
+    21300118: texture002_59
+    21300120: texture002_60
+    21300122: texture002_61
+    21300124: texture002_62
+    21300126: texture002_63
+    21300128: texture002_64
+    21300130: texture002_65
+    21300132: texture002_66
+    21300134: texture002_67
+    21300136: texture002_68
+    21300138: texture002_69
+    21300140: texture002_70
+    21300142: texture002_71
+    21300144: texture002_72
+    21300146: texture002_73
+    21300148: texture002_74
+    21300150: texture002_75
+    21300152: texture002_76
+    21300154: texture002_77
+    21300156: texture002_78
+    21300158: texture002_79
+    21300160: texture002_80
+    21300162: texture002_81
+    21300164: texture002_82
+    21300166: texture002_83
+    21300168: texture002_84
+    21300170: texture002_85
+    21300172: texture002_86
+    21300174: texture002_87
+    21300176: texture002_88
+    21300178: texture002_89
+    21300180: texture002_90
+    21300182: texture002_91
+    21300184: texture002_92
+    21300186: texture002_93
+    21300188: texture002_94
+    21300190: texture002_95
+    21300192: texture002_96
+    21300194: texture002_97
+    21300196: texture002_98
+    21300198: texture002_99
+    21300200: texture002_100
+    21300202: texture002_101
+    21300204: texture002_102
+    21300206: texture002_103
+    21300208: texture002_104
+    21300210: texture002_105
+    21300212: texture002_106
+    21300214: texture002_107
+    21300216: texture002_108
+    21300218: texture002_109
+    21300220: texture002_110
+    21300222: texture002_111
+    21300224: texture002_112
+    21300226: texture002_113
+    21300228: texture002_114
+    21300230: texture002_115
+    21300232: texture002_116
+    21300234: texture002_117
+    21300236: texture002_118
+    21300238: texture002_119
+    21300240: texture002_120
+    21300242: texture002_121
+    21300244: texture002_122
+    21300246: texture002_123
+    21300248: texture002_124
+    21300250: texture002_125
+    21300252: texture002_126
+    21300254: texture002_127
+    21300256: texture002_128
+    21300258: texture002_129
+    21300260: texture002_130
+    21300262: texture002_131
+    21300264: texture002_132
+    21300266: texture002_133
+    21300268: texture002_134
+    21300270: texture002_135
+    21300272: texture002_136
+    21300274: texture002_137
+    21300276: texture002_138
+    21300278: texture002_139
+    21300280: texture002_140
+    21300282: texture002_141
+    21300284: texture002_142
+    21300286: texture002_143
+    21300288: texture002_144
+    21300290: texture002_145
+    21300292: texture002_146
+    21300294: texture002_147
+    21300296: texture002_148
+    21300298: texture002_149
+    21300300: texture002_150
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: texture002_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 916
+        width: 71
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 919
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 920
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_3
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 897
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 827
+        width: 71
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_5
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 826
+        width: 69
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 831
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_7
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 840
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_8
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 856
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_9
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 846
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_10
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 847
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_11
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 850
+        width: 58
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_12
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 847
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_13
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 828
+        width: 57
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_14
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 818
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_15
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 775
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_16
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 800
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_17
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 787
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_18
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 796
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_19
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 791
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_20
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 784
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_21
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 777
+        width: 63
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_22
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 784
+        width: 65
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_23
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 783
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 739
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 736
+        width: 69
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_26
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 737
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_27
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 703
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 743
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_29
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 719
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_30
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 736
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_31
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 724
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_32
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 759
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_33
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 724
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_34
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 724
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_35
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 712
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_36
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 731
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_37
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 724
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_38
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 682
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_39
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 676
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_40
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 727
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_41
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 727
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_42
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 650
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_43
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 647
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_44
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 648
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_45
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 664
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_46
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 690
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_47
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 630
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_48
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 653
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_49
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 648
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_50
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 655
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_51
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 658
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_52
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 658
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_53
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 654
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_54
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 556
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_55
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 555
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_56
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 584
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_57
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 628
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_58
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 582
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_59
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 609
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_60
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 609
+        width: 37
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_61
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 611
+        width: 59
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_62
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 576
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_63
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 580
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_64
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 583
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_65
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 583
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_66
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 556
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_67
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 516
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_68
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 516
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_69
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 568
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_70
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 567
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_71
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 515
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_72
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 514
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_73
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 542
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_74
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 543
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_75
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 506
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_76
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 510
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_77
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 504
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_78
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 464
+        width: 65
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_79
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 464
+        width: 66
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_80
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 466
+        width: 65
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_81
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 515
+        width: 68
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_82
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 518
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_83
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 489
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_84
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 371
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_85
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 375
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 372
+        width: 70
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_87
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 435
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_88
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 436
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_89
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 436
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_90
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 436
+        width: 77
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_91
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 436
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_92
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 437
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_93
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 437
+        width: 24
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_94
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 437
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_95
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 426
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_96
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 426
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_97
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 361
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_98
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 360
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_99
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 360
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_100
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 361
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_101
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 361
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_102
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 360
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_103
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 355
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_104
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 353
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_105
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 351
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_106
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 282
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_107
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 280
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_108
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 287
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_109
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 280
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_110
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 282
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_111
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 282
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_112
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 283
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_113
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 282
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_114
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 282
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_115
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 282
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_116
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 275
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_117
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 270
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_118
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 192
+        width: 65
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_119
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 191
+        width: 69
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_120
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 192
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_121
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 191
+        width: 76
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_122
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 191
+        width: 74
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_123
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 191
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_124
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 192
+        width: 65
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_125
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 191
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_126
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 193
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_127
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 196
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_128
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 182
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_129
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 100
+        width: 70
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_130
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 100
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_131
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 100
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_132
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 100
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_133
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 99
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_134
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 100
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_135
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 100
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_136
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 100
+        width: 69
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_137
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 99
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_138
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 99
+        width: 69
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_139
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 102
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_140
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 8
+        width: 70
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_141
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 8
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_142
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 8
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_143
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 7
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_144
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 13
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_145
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 11
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_146
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 7
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_147
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 8
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_148
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 8
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_149
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 9
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture002_150
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 7
+        width: 71
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
