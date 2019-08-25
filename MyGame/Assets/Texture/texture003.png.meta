@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 0d55b07f636fa1f4f978bab2c48823c6
-timeCreated: 1566707848
-licenseType: Free
+timeCreated: 1566719497
+licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: texture003_0
@@ -38,6 +38,8 @@ TextureImporter:
     21300062: texture003_31
     21300064: texture003_32
     21300066: texture003_33
+    21300068: texture003_34
+    21300070: texture003_35
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -200,11 +202,11 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 718
-        width: 163
+        width: 164
         height: 163
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 40, y: 40, z: 35, w: 34}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
@@ -264,12 +266,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 554
+        y: 558
         width: 163
-        height: 163
+        height: 159
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 37, y: 33, z: 35, w: 32}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
@@ -329,7 +331,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 279
-        y: 568
+        y: 566
         width: 440
         height: 63
       alignment: 0
@@ -523,13 +525,13 @@ TextureImporter:
       name: texture003_32
       rect:
         serializedVersion: 2
-        x: 279
+        x: 280
         y: 0
-        width: 739
+        width: 347
         height: 225
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 71, y: 67, z: 58, w: 47}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
@@ -540,6 +542,32 @@ TextureImporter:
         y: 163
         width: 48
         height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture003_34
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 117
+        width: 338
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: texture003_35
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 13
+        width: 307
+        height: 98
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
