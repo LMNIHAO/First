@@ -37,7 +37,9 @@ public class WindowManager
         Object.DontDestroyOnLoad(uiRootObj);
         Canvas can = uiRootObj.AddComponent<Canvas>();
         can.renderMode = RenderMode.ScreenSpaceOverlay;
-        uiRootObj.AddComponent<CanvasScaler>();
+        CanvasScaler canScaler = uiRootObj.AddComponent<CanvasScaler>();
+        canScaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+        canScaler.referenceResolution = new Vector2(1920f,1080f);
         uiRootObj.AddComponent<GraphicRaycaster>();
 
         //创建 EventSystem
@@ -59,20 +61,11 @@ public class WindowManager
 
         //创建窗口存放的根节点.
         windowRoot = new GameObject("Windows");//创建一个窗口根节点,加载的窗口都放到该物体下.
-        windowRoot.transform.SetParent(uiRootObj.transform);//窗口根节点设置到UIRoot下面
-        windowRoot.transform.SetAsLastSibling();
-        RectTransform rectWindow = windowRoot.AddComponent<RectTransform>();
-        rectWindow.anchorMin = Vector2.zero;
-        rectWindow.anchorMax = Vector2.one;
-        rectWindow.offsetMin = Vector2.zero;
-        rectWindow.offsetMax = Vector2.one;
-        rectWindow.sizeDelta = Vector2.zero;
-        rectWindow.anchoredPosition = Vector2.zero;
+        SetRoot(windowRoot.transform,uiRootObj.transform);//窗口根节点设置到UIRoot下面
 
         //创建弹框存放的根节点.
         dialogRoot = new GameObject("Dialogs");//创建一个弹框根节点,加载的窗口都放到该物体下.
-        dialogRoot.transform.SetParent(uiRootObj.transform);//窗口根节点设置到UIRoot下面
-        dialogRoot.transform.SetAsLastSibling();
+        SetRoot(dialogRoot.transform,uiRootObj.transform);
     }
     //打开UI界面
     public void OpenWindow(string path, OpenWindowCallBack fun=null)
@@ -193,6 +186,10 @@ public class WindowManager
     {
         child.SetParent(root);
         UIPanel_VT rectPanel = child.GetComponent<UIPanel_VT>();
+        if (rectPanel == null)
+        {
+            rectPanel = child.gameObject.AddComponent<UIPanel_VT>();
+        }
         rectPanel.InitPos();
     }
     //关闭窗口
