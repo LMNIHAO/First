@@ -10,14 +10,29 @@ public class UIPanel_VT : MonoBehaviour
     private void Awake()
     {
         rect = GetComponent<RectTransform>();
+        if (rect == null)
+        {
+            rect = gameObject.AddComponent<RectTransform>();
+        }
     }
 
     public void InitPos()
     {
+        if (rect.anchorMin != Vector2.zero)
+        {
+            rect.anchorMin = Vector2.zero;
+        }
+        if (rect.anchorMax != Vector2.one)
+        {
+            rect.anchorMax = Vector2.one;
+        }
+
         rect.offsetMin = Vector2.zero;
         rect.offsetMax = Vector2.one;
         rect.sizeDelta = Vector2.zero;
         rect.anchoredPosition = Vector2.zero;
+
+        SetAsLastSibling();
     }
 
     /// <summary>

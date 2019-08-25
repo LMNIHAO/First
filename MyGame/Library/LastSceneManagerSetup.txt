@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scene/UIScene.unity
+=======
+- path: Assets/Vintans/_Scenes/Test.unity
+>>>>>>> 1443385b128b5013fb3c4f70d87651194b416124
   isLoaded: 1
   isActive: 1
