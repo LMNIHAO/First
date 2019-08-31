@@ -6,7 +6,7 @@ using Core;
 
 public class GameScene : BaseScene
 {
-    public GameScene() : base(SceneType.Game) { }
+    public GameScene() : base(EnumManager.SceneType.Game) { }
 
     public override void OnStart()
     {

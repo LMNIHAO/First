@@ -16,12 +16,7 @@ namespace Core
         public virtual void OnUpdate() { }
         public virtual void OnEnd() { }
     }
-    public enum StateEventType
-    {
-        OnAdd,
-        OnStart,
-        OnEnd,
-    }
+
     //状态机
     public class StateMachine
     {

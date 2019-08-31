@@ -1,34 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//动作类型
-public enum RoleMotionType
-{
-    Idle=0,//站立
-    Run=50,//跑步
-    Attack1=100,//攻击1
-    Attack2,
-    Attack3,
-    Attack4,
-    Skill1=200,//技能1
-    Skill2,
-    Skill3,
-    Skill4,
-    BeAttack=300,//被攻击
-    BeatWall,//击到墙上
-    BeatBack,//击退
-    BeatFloat,//浮空
-    DownStand,//起身
-    Stun,//眩晕
-    Die=400,//死亡
-    Relive,//复活
-}
+
 //接入动作指令的条件
 [System.Serializable]
 public class Conditional
 {
-    public RoleCommand Command;//可接入的动作指令(按下某个键)
-    public RoleMotionType MotionName;//需要播放的动画名称(枚举成员名称对应动画名称)
+    public EnumManager.RoleCommand Command;//可接入的动作指令(按下某个键)
+    public EnumManager.RoleMotionType MotionName;//需要播放的动画名称(枚举成员名称对应动画名称)
     [Range(0f,1f)]
     public float AnimL=0;//可接入指令的起始时间点
     [Range(0f, 1f)]
@@ -59,13 +38,13 @@ public class TurnInfo
 //继承StateMachineBehaviour,脚本可以挂载在动画状态上
 public class RoleMotion : StateMachineBehaviour
 {
-    public RoleMotionType motionType;//动作类型
+    public EnumManager.RoleMotionType motionType;//动作类型
     public Conditional[] Conditions;//配置所有的指令条件
     private Conditional CacheCondition;//下一个指令条件.
     private Animator mAnimator;//动画组件
     private RoleController mRoleController;//角色控制器
     public bool EndToDefault=true;//默认回到原地站立动作.
-    public RoleMotionType EndToMotion = RoleMotionType.Idle;//当前动作结束后切换到下一个默认的动作.
+    public EnumManager.RoleMotionType EndToMotion = EnumManager.RoleMotionType.Idle;//当前动作结束后切换到下一个默认的动作.
     public MoveInfo MoveInfo;//移动信息
     public TurnInfo TurInfo;//转向信息
     private AnimatorStateInfo curStateInfo;
@@ -79,7 +58,7 @@ public class RoleMotion : StateMachineBehaviour
         }
     }
     //判断是否可以接入某个指令
-    public bool CanExcuteCommand(RoleCommand command,out Conditional conditional)
+    public bool CanExcuteCommand(EnumManager.RoleCommand command,out Conditional conditional)
     {
         conditional = null;
         //正在切换下一个动作中
@@ -98,7 +77,7 @@ public class RoleMotion : StateMachineBehaviour
         return false;
     }
     //当前状态执行某个动作指令
-    public bool ExcuteCommand(RoleCommand command)
+    public bool ExcuteCommand(EnumManager.RoleCommand command)
     {
         Conditional conditional;
         if (CanExcuteCommand(command,out conditional))

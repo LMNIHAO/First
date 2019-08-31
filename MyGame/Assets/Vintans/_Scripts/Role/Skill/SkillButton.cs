@@ -7,10 +7,10 @@ using System;
 //技能按钮
 public class SkillButton : MonoBehaviour
 {
-    public RoleCommand Command;//要执行的指令
-    public SkillType mType;//技能类型
+    public EnumManager.RoleCommand Command;//要执行的指令
+    public EnumManager.SkillType mType;//技能类型
     //public static event ExcuteCommand onCommand;//执行指令的委托
-    public static event Action<RoleCommand> onCommand;//用于执行动作命令的事件
+    public static event Action<EnumManager.RoleCommand> onCommand;//用于执行动作命令的事件
     private Role mRole;//当前的主角
     private float CoolTime=0f;//冷却剩余时间
     private float MaxTime = 0f;//冷却最大时间
@@ -18,7 +18,7 @@ public class SkillButton : MonoBehaviour
     private void Start()
     {
         //GraySpirte = UIHelper.GetCompnent<UISprite>(transform,"mask");
-        RoleManager.Register(RoleEventType.CreatHero, OnHeroCreate);
+        RoleManager.Register(EnumManager.RoleEventType.CreatHero, OnHeroCreate);
         if (RoleManager.Hero!=null)
         {
             OnHeroCreate(RoleManager.Hero);
@@ -28,15 +28,15 @@ public class SkillButton : MonoBehaviour
     {
         mRole = obj as Role;
         //注册角色使用技能的事件
-        mRole.Register(RoleEventID.UseSkill, (go) => {
-            Skill skill = go as Skill;
-            if (skill.SkillType== mType)
-            {
-                CoolTime = skill.CoolTime;
-                MaxTime = CoolTime;
-            }
+        //mRole.Register(RoleEventID.UseSkill, (go) => {
+        //    Skill skill = go as Skill;
+        //    if (skill.SkillType== mType)
+        //    {
+        //        CoolTime = skill.CoolTime;
+        //        MaxTime = CoolTime;
+        //    }
             
-        });
+        //});
        
     }
     //更新进度

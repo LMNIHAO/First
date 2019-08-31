@@ -2,13 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-//资源加载任务状态;
-public enum ResourceLoadState
-{
-    Waitting = 0,//等待加载;
-    Loading,//加载中;
-    Finished,//加载完成;
-};
 //资源加载任务（基类）;
 abstract public class ResourceLoadTask
 {
@@ -19,7 +12,7 @@ abstract public class ResourceLoadTask
     public ResourceLoadCallback pCallBack { get; set; }
     public UnityEngine.Object pLoadObject { get; set; }
     public string pError { get; set; }
-    public ResourceLoadState pLoadState { get; set; }
+    public EnumManager.ResourceLoadState pLoadState { get; set; }
     public AssetBundle pAssetBundle { get; set; }
     public void Callback()
     {
@@ -75,11 +68,11 @@ public class EditorResourceLoadTask : ResourceLoadTask
     /// <returns></returns>
     override public IEnumerator Load()
     {
-        pLoadState = ResourceLoadState.Loading;
+        pLoadState = EnumManager.ResourceLoadState.Loading;
 
         if (string.IsNullOrEmpty(pAssetFileName))
         {
-            pLoadState = ResourceLoadState.Finished;
+            pLoadState = EnumManager.ResourceLoadState.Finished;
             yield break;
         }
         if (pAssetObjectType == typeof(TextAsset))
@@ -102,7 +95,7 @@ public class EditorResourceLoadTask : ResourceLoadTask
                 }
             }
         }
-        pLoadState = ResourceLoadState.Finished;
+        pLoadState = EnumManager.ResourceLoadState.Finished;
     }
 }
 //AssetBundle打包资源加载任务;
@@ -152,7 +145,7 @@ public class AssetBundleLoadTask : ResourceLoadTask
    /// <returns></returns>
     override public IEnumerator Load()
     {
-        pLoadState = ResourceLoadState.Loading;
+        pLoadState = EnumManager.ResourceLoadState.Loading;
         ResourceLoadTask tempTask = ResourceManager.GetManager().GetResourceLoadTask(pAssetFileName);
         //如果任务已经加载过,则直接获取资源并完成;
         if (tempTask != null)
@@ -163,7 +156,7 @@ public class AssetBundleLoadTask : ResourceLoadTask
             {
                 pLoadObject = pAssetBundle.LoadAsset(pAssetObjectName);
             }
-            pLoadState = ResourceLoadState.Finished;
+            pLoadState = EnumManager.ResourceLoadState.Finished;
             yield break;
         }
       
@@ -215,7 +208,7 @@ public class AssetBundleLoadTask : ResourceLoadTask
                     pLoadObject = pAssetBundle.LoadAsset(pAssetObjectName, pAssetObjectType);
             }
                
-            pLoadState = ResourceLoadState.Finished;
+            pLoadState = EnumManager.ResourceLoadState.Finished;
         }
        
 

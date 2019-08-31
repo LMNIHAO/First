@@ -1,21 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//技能枚举类型
-public enum SkillType
-{
-    None,
-    Skill1,
-    Skill2,
-    Skill3,
-    Skill4,
-}
+
 //技能;
 public class Skill: MonoBehaviour
 {
     public string Name;//技能名称
-    public SkillType SkillType;//技能类型
-    public RoleMotionType MotionType;//触发该技能的动作类型
+    public EnumManager.SkillType SkillType;//技能类型
+    public EnumManager.RoleMotionType MotionType;//触发该技能的动作类型
     public float CoolTime;//冷却时间
     private float LastUseTime = 0f;//技能最后一次使用的时间
     //技能是否冷却完毕
@@ -55,7 +47,7 @@ public class Skill: MonoBehaviour
                 plug.OnStart();//让每一个技能插件开始运行(让每一个小弟开始做事情)
             }
         }
-        pOwner.Notify(RoleEventID.UseSkill, this);//广播开始使用技能
+        //pOwner.Notify(RoleEventID.UseSkill, this);//广播开始使用技能
         //Debug.Log("技能开始:" + Name);
     }
     //技能的更新方法

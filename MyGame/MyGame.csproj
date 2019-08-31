@@ -130,9 +130,11 @@
     <Compile Include="Assets\Vintans\_Scripts\MVC\LoginPanel\LoginControl.cs" />
     <Compile Include="Assets\Vintans\_Scripts\MVC\LoginPanel\LoginModel.cs" />
     <Compile Include="Assets\Vintans\_Scripts\MVC\LoginPanel\LoginView.cs" />
+    <Compile Include="Assets\Vintans\_Scripts\Other\EnumManager.cs" />
     <Compile Include="Assets\Vintans\_Scripts\Role\AI\AICondition.cs" />
     <Compile Include="Assets\Vintans\_Scripts\Role\AI\AIState.cs" />
     <Compile Include="Assets\Vintans\_Scripts\Role\AI\RoleAI.cs" />
+    <Compile Include="Assets\Vintans\_Scripts\Role\Player\PlayerController.cs" />
     <Compile Include="Assets\Vintans\_Scripts\Role\Role.cs" />
     <Compile Include="Assets\Vintans\_Scripts\Role\RoleController.cs" />
     <Compile Include="Assets\Vintans\_Scripts\Role\RoleManager.cs" />

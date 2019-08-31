@@ -4,24 +4,7 @@ using UnityEngine;
 using System.Net.Sockets;
 using System.Net;
 using System;
-//动作指令
-public enum RoleCommand
-{
-    Attack,//普攻
-    Idle,//站立
-    Run,//跑步
-    Skill1,//技能1
-    Skill2,//技能2
-    Skill3,//技能3
-    Skill4,//技能4
-    BeAttack,//被攻击
-    BeatWall,//击到墙上
-    BeatBack,//击退
-    BeatFloat,//浮空
-    Die,//死亡
-    Stun,//眩晕
-    Relive,//复活
-}
+
 //角色动作监听接口
 public interface IRoleMotionListener
 {
@@ -54,18 +37,9 @@ public class RoleController : MonoBehaviour
         RoleMotionListener = GetComponentInChildren<IRoleMotionListener>();//获取SkillManager实例
         mAnimator = GetComponentInChildren<Animator>();
     }
-    private void Update()
-    {
-        //if(cachCommand.Count>0)
-        //{
-        //    if (ExcuteCommand(cachCommand.Peek()))
-        //    {
-        //        cachCommand.Dequeue();
-        //    }
-        //}
-    }
+
     //判断是否可以运行该动作指令
-    public bool CanExcuteCommand(RoleCommand command,out Conditional conditional)
+    public bool CanExcuteCommand(EnumManager.RoleCommand command,out Conditional conditional)
     {
         conditional = null;
         if (CurMotion != null)
@@ -75,25 +49,21 @@ public class RoleController : MonoBehaviour
         return false;
     }
     //运行动作指令
-    public bool ExcuteCommand(RoleCommand command)
+    public bool ExcuteCommand(EnumManager.RoleCommand command)
     {
         if (CurMotion!=null)
         {
-            if (command == RoleCommand.Run && CurMotion.motionType == RoleMotionType.Run)
+            if (command == EnumManager.RoleCommand.Run && CurMotion.motionType == EnumManager.RoleMotionType.Run)
             {
                 return false;
             }
             return CurMotion.ExcuteCommand(command); //当前状态执行该动作指令
         }
-        //else
-        //{
-        //    cachCommand.Clear();
-        //    cachCommand.Enqueue(command);
-        //}
+
         return false;
     }
     //播放动作
-    public void PlayMotion(RoleMotionType motion)
+    public void PlayMotion(EnumManager.RoleMotionType motion)
     {
         if (pAnimator!=null)
         {

@@ -3,12 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using Core;
 
-public enum RoleEventType
-{
-    CreatHero,//创建主角
-    CreatRole,//创建角色
-    RemoveRole,//移除玩家
-}
 //角色管理器
 public class RoleManager 
 {
@@ -145,7 +139,6 @@ public class RoleManager
         {
             if (item!=null&&item.RoleID==roleid)
             {
-                item.Notify(RoleEventID.LeaveScene,item);
                 AllRoles.Remove(item);
                 GameObject.Destroy(item.gameObject);
                 break;
@@ -195,24 +188,24 @@ public class RoleManager
             }
             if (role != null)
             {
-                Notify(RoleEventType.CreatRole, role);//通知创建角色事件
+                Notify(EnumManager.RoleEventType.CreatRole, role);//通知创建角色事件
             }
         }, null);
         
     }
     
     //注册事件
-    public static void Register(RoleEventType eventID, EventFun<object> fun)
+    public static void Register(EnumManager.RoleEventType eventID, EventFun<object> fun)
     {
         EventManager.RegisterEvent((int)eventID, fun);
     }
     //解注册事件
-    public static void UnRegister(RoleEventType eventID, EventFun<object> fun)
+    public static void UnRegister(EnumManager.RoleEventType eventID, EventFun<object> fun)
     {
         EventManager.UnRegisterEvent((int)eventID, fun);
     }
     //广播事件
-    public static void Notify(RoleEventType eventID,object obj)
+    public static void Notify(EnumManager.RoleEventType eventID,object obj)
     {
         EventManager.Notify((int)eventID,obj);
     }

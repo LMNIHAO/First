@@ -18,10 +18,10 @@ public class Game : MonoBehaviour
         machine.AddState(new GameScene());
         machine.AddState(new OverScene());
 
-        Goto(SceneType.Login);
+        Goto(EnumManager.SceneType.Login);
     }
    
-    public static void Goto(SceneType sceneType)
+    public static void Goto(EnumManager.SceneType sceneType)
     {
         if (machine != null)
         {

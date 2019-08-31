@@ -2,12 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Core;
-//游戏相机类型
-public enum GameCameraType
-{
-    Follow,//跟随相机
-    Point,//定点相机
-}
+
 //游戏相机类
 public class GameCamera:State
 {
@@ -18,7 +13,7 @@ public class GameCamera:State
         get { return CameraManager.GetSingle().TargetObj; }
     }
     public Camera pCamera { get; set; }
-    public GameCamera(GameCameraType type) : base(type.ToString())
+    public GameCamera(EnumManager.GameCameraType type) : base(type.ToString())
     {
         GameObject cameraObj = new GameObject(type.ToString());
         cameraObj.transform.SetParent(CameraManager.GetSingle().transform);
@@ -40,7 +35,7 @@ public class GameCamera:State
 //跟随相机
 public class FollowCamera : GameCamera
 {
-    public FollowCamera() : base(GameCameraType.Follow)
+    public FollowCamera() : base(EnumManager.GameCameraType.Follow)
     {
     }
     public override void OnUpdate()
@@ -60,7 +55,7 @@ public class FollowCamera : GameCamera
 //跟随相机
 public class PointCamera : GameCamera
 {
-    public PointCamera() : base(GameCameraType.Point)
+    public PointCamera() : base(EnumManager.GameCameraType.Point)
     {
     }
     public override void OnStart()
@@ -155,10 +150,10 @@ public class CameraManager : MonoBehaviour
         mStateMachine = new StateMachine();
         mStateMachine.AddState(new FollowCamera());
         mStateMachine.AddState(new PointCamera());
-        Goto(GameCameraType.Follow);
+        Goto(EnumManager.GameCameraType.Follow);
     }
     //切换相机状态
-    public void Goto(GameCameraType cameraType)
+    public void Goto(EnumManager.GameCameraType cameraType)
     {
         mStateMachine.GoTo(cameraType.ToString());
     }

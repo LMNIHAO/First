@@ -6,7 +6,7 @@ using Core;
 
 public class LoginScene : BaseScene
 {
-    public LoginScene() : base(SceneType.Login)
+    public LoginScene() : base(EnumManager.SceneType.Login)
     {
     }
 

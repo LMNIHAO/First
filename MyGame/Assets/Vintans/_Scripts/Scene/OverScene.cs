@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class OverScene : BaseScene
 {
-    public OverScene() : base(SceneType.Over)
+    public OverScene() : base(EnumManager.SceneType.Over)
     {
     }
     public override void OnStart()

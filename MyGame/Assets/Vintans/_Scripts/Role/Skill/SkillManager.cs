@@ -6,7 +6,7 @@ using UnityEngine;
 public class SkillManager : MonoBehaviour,IRoleMotionListener
 {
     //根据技能的动作类型作为键,技能对象作为值,存储所有技能.
-    public Dictionary<RoleMotionType, Skill> AllSkills=new Dictionary<RoleMotionType, Skill>();
+    public Dictionary<EnumManager.RoleMotionType, Skill> AllSkills=new Dictionary<EnumManager.RoleMotionType, Skill>();
     private Skill CurSkill;//当前技能
     public Role pOwner { get; set; }//所属的角色
    
@@ -40,7 +40,7 @@ public class SkillManager : MonoBehaviour,IRoleMotionListener
         }
     }
     //根据动作类型获取对应的技能
-    public Skill GetSkill(RoleMotionType motionType)
+    public Skill GetSkill(EnumManager.RoleMotionType motionType)
     {
         Skill skill;
         AllSkills.TryGetValue(motionType, out skill);
